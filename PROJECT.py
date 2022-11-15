@@ -31,7 +31,7 @@ for row in tablecells[1:6]:
     print(name)
     print(f"Current price: $", currentprice)
     print(f"% change: ", percent_change,'%')
-    print(f"The price before the % change: $", corresp_price)
+    print(f"The price before the % change: $", round(corresp_price,3))
     print()
     print()
 
