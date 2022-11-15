@@ -27,6 +27,7 @@ for row in tablecells[1:6]:
     percent_change = (td[7].text.replace('%',""))
     corresp_price = float(currentprice)/(1+(float(percent_change)/100))
 
+    
     print(name)
     print(f"Current price: $", currentprice)
     print(f"% change: ", percent_change,'%')
